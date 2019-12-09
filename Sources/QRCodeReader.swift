@@ -395,7 +395,7 @@ public final class QRCodeReader: NSObject, AVCaptureMetadataOutputObjectsDelegat
               }
 
                 let scannedResult = QRCodeReaderResult(withValue: sVal, andMetaData: _readableCodeObject.type.rawValue)
-
+                
               DispatchQueue.main.async {
                 weakSelf.didFindCode?(scannedResult)
               }

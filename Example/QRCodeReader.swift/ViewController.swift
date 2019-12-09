@@ -131,6 +131,7 @@ class ViewController: UIViewController, QRCodeReaderViewControllerDelegate {
 
   func reader(_ reader: QRCodeReaderViewController, didSwitchCamera newCaptureDevice: AVCaptureDeviceInput) {
     print("Switching capture to: \(newCaptureDevice.device.localizedName)")
+    
   }
 
   func readerDidCancel(_ reader: QRCodeReaderViewController) {
