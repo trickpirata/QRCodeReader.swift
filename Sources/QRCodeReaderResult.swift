@@ -29,11 +29,16 @@ import Foundation
 /**
  The result of the scan with its content value and the corresponding metadata type.
  */
-public struct QRCodeReaderResult {
+public class QRCodeReaderResult: NSObject {
+
+    init(withValue value: String,andMetaData metadata: String) {
+        self.value = value
+        self.metadataType = metadata
+    }
   /**
    The error corrected data decoded into a human-readable string.
    */
-  public let value: String
+    public let value: String
 
   /**
    The type of the metadata.

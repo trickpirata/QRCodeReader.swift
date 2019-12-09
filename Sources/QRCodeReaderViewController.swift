@@ -28,7 +28,7 @@ import UIKit
 import AVFoundation
 
 /// Convenient controller to display a view to scan/read 1D or 2D bar codes like the QRCodes. It is based on the `AVFoundation` framework from Apple. It aims to replace ZXing or ZBar for iOS 7 and over.
-public class QRCodeReaderViewController: UIViewController {
+@objc public class QRCodeReaderViewController: UIViewController {
   private let builder: QRCodeReaderViewControllerBuilder
 
   /// The code reader object used to scan the bar code.
