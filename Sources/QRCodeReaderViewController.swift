@@ -213,7 +213,7 @@ import AVFoundation
         }
     }
     private func showFocusOverlay(atPoint point: CGPoint) {
-        let focusView: UIImageView = UIImageView(image: UIImage(named: "cameraFocus"))
+        let focusView: UIImageView = UIImageView(image: UIImage(named: "cameraFocus", in: Bundle(for: QRCodeReaderViewController.self), compatibleWith: nil))
         focusView.contentMode = .scaleAspectFit
         focusView.frame = CGRect(x: 0, y: 0, width: 50, height: 50)
         focusView.transform = CGAffineTransform(scaleX: 1.7, y: 1.7)
