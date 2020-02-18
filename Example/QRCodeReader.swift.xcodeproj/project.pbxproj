@@ -579,7 +579,7 @@
 				INFOPLIST_FILE = QRCodeReader.swift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yannickloriot.qrcodereader;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trickpirata.qrcodereader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -595,7 +595,7 @@
 				INFOPLIST_FILE = QRCodeReader.swift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yannickloriot.qrcodereader;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trickpirata.qrcodereader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
